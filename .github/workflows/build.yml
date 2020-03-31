@@ -1,12 +1,7 @@
 name: Build
 on:
   push:
-    paths-ignore:
-      - 'LICENSE'
-      - '**.md'
-  pull_request:
-  release:
-    types: [created]
+   branch: master
 
 jobs:
   build:
